@@ -24,8 +24,8 @@ function risi_kroznico_in_tocke(stTock, r)
     izrisi_kroznico(1);
     axis equal;
     title('Naključno generirane točke znotraj kvadrata');
-    xlabel('x');
-    ylabel('y');
+    xlabel('x-os');
+    ylabel('y-os');
     legend('Znotraj krožnice', 'Zunaj krožnice', 'Krožnica');
 end
 
